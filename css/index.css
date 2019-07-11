@@ -1,0 +1,386 @@
+*{margin: 0;padding: 0;}
+html{ font-family: "Microsoft YaHei"; color:#333; font-size:100px;}
+html,body{width:100%;min-width:7.5rem;height:100%;background: #f4f4f4;}
+li{ list-style:none; }
+a{ text-decoration:none; color:#333; }
+a img{ border:0; }
+img{ vertical-align:middle;}
+table{border-collapse:collapse;border-spacing:0;}
+.clearfix{ *zoom:1; }
+.clearfix:after{ content:""; display:block; clear:both; }
+.fl{float: left}
+.fr{float: right}
+input {/*-webkit-appearance:none;*/outline: none}
+.main{width: 7.5rem;margin: 0 auto}
+.zg-wrap{margin: 0 auto;width: 7.5rem;}
+header {
+    width: 7.5rem;
+    height: .8rem;
+    background: #f2f2f2;
+}
+header a {
+    font:700 .2rem/.4rem "microsoft yahei";
+    color:#fff;
+}
+header a img {
+    float: left;
+}
+header .logo {
+    display: block;
+    float: left;
+    width: 2rem;
+    height: .36rem;
+    margin-top: .2rem;
+    margin-left: .3rem;
+}
+header .zgfb {
+    display: block;
+    float: right;
+    width: 1.15rem;
+    height: .36rem;
+    margin-right: .3rem;
+    margin-top: .2rem;
+}
+header .logo img {
+    width: .75rem;
+    height: .34rem;
+    margin-right: .1rem;
+}
+header .zgfb img {
+    width: .27rem;
+    height: .24rem;
+    margin-top: .12rem;
+}
+header.fixed {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    margin-left: -3.75rem;
+    z-index: 899;
+}
+.navbar {
+    box-shadow: none;
+    background: rgba(70,70,70,0);
+}
+.navbar.active {
+    background: rgb(255,255,255);
+    transition: background 3s;
+}
+.navbar.active a {
+    color:#000;
+}
+/*footer*/
+.foot{
+    position: fixed;
+    bottom:0;
+    width:7.5rem;
+    height:.9rem;
+    overflow: hidden;
+    z-index:999;
+}
+.foot a{
+    float: left;
+    width:3.75rem;
+    font:.26rem/0.9rem 'Microsoft YaHei';
+    text-align: center;
+}
+.foot a:first-child{
+    background: #f2f2f2;
+    color: #000;
+}
+.foot a:first-child img {
+    width: .47rem;
+    height: .4rem;
+    margin-right: .1rem;
+}
+.foot a:last-child{
+    background: #dc2f3c;
+    color: #fff;
+}
+.foot a:last-child img {
+    width: .3rem;
+    height: .38rem;
+    margin-right: .1rem;
+}
+
+
+/*m_banner*/
+.mban {
+    width: 7.5rem;
+    height: 6.15rem;
+    background: url(../images/ban_01.jpg) no-repeat center top;
+    -webkit-background-size: 7.5rem;
+    background-size: 7.5rem;
+    position: relative;
+}
+.mban h1 {
+    float: left;
+    text-indent: -9999px;
+}
+/*zgm1*/
+.zgm1 {
+    width:7.5rem;
+    height: 4.41rem;
+    background: url(../images/m1_02.jpg) no-repeat center top;
+    -webkit-background-size: 7.5rem;
+    background-size: 7.5rem;
+}
+.zgm1 h2{
+    height: .79rem;
+    background: url(../images/tit1.png) no-repeat center top;
+    -webkit-background-size: 4.49rem;
+    background-size: 4.49rem;
+    margin-bottom: .36rem;
+}
+.zgm1 .tab_w{
+    width: 6.89rem;
+    height: 2.81rem;
+    padding-top: .55rem;
+    margin: auto;
+    background: url(../images/ice1.png) no-repeat center top;
+    -webkit-background-size: 6.89rem;
+    background-size: 6.89rem;
+    box-sizing:border-box;
+}
+/*table start*/
+.table {
+  width: 6.2rem;
+  border-collapse: collapse;
+  margin: 0 auto;
+  text-align: center;
+
+}
+.table tr {
+  /*background: #fff;*/
+  transition: 0.3s
+}
+.table tr td{
+  font:400 .2rem "microsoft yahei";
+  color:#fff;
+  border:1px solid #fff;
+  padding: .05rem;
+  height: .6rem;
+  /*padding-top: 15px;
+  padding-bottom: 15px;*/
+}
+.table tr:hover {
+  background: rgba(252,65,123,0.1);
+}
+.table tr:hover td {
+  color:#fff;
+  border:1px solid #fff;
+}
+.table tr:hover td a {
+}
+.table tr td a {
+  font:400 .2rem "microsoft yahei";
+  color:#fff;
+}
+
+.table tr {
+  border-bottom:1px solid #fff;
+}
+.table tr:first-child {
+  border:none;
+}
+.table tr:last-child {
+  border:none;
+}
+.table tr th{
+  width: 20%;
+  height: .6rem;
+  font:400 .2rem/.6rem "microsoft yahei";
+  color:#fff;
+  border:1px solid #fff;
+}
+.table tr th:nth-child(1){
+  width: 21%;
+}
+.table tr th:nth-child(2){
+  width: 24%;
+}
+.table tr th:nth-child(4){
+  width: 16%;
+}
+.table tr th:nth-child(5){
+  width: 19%;
+}
+/*table end*/
+/*zgm2*/
+.zgm2 {
+    width: 7.5rem;
+    height: 7.33rem;
+    background: url(../images/m2_02.jpg) no-repeat center top;
+    -webkit-background-size: 7.5rem;
+    background-size: 7.5rem;
+}
+.zgm2 h2 {
+    height: .61rem;
+    background: url(../images/tit2.png) no-repeat center top;
+    -webkit-background-size: 7.5rem;
+    background-size: 7.5rem;
+    margin-bottom: .3rem;
+}
+
+.zgm2 .lc{
+    width: 7.14rem;
+    height: 6.1rem;
+    padding-top: .25rem;
+    margin: auto;
+    background: url(../images/ice2.png) no-repeat center top;
+    -webkit-background-size: 7.14rem;
+    background-size: 7.14rem;
+     box-sizing:border-box;
+}
+.zgm2 .lc p{
+    font:.2rem/.26rem 'Microsoft YaHei';
+    text-align: left;
+    color: #fff;
+}
+.zgm2 .lc .item1{
+    height: .62rem;
+    background: url(../images/1.png) no-repeat center top;
+    -webkit-background-size: 3.31rem;
+    background-size: 3.31rem;
+    margin-bottom: .5rem;
+}
+.zgm2 .lc .item2{
+    width: 4.6rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: .9rem;
+}
+.zgm2 .lc .item2 span{
+    width: .38rem;
+     height: .43rem;
+    background: url(../images/2.png) no-repeat center top;
+    -webkit-background-size: .38rem;
+    background-size: .38rem;
+}
+.zgm2 .lc .item3{
+    width: 4.6rem;
+    margin-left: 2.7rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: .55rem;
+}
+.zgm2 .lc .item3 span{
+    width: .36rem;
+     height: .44rem;
+    background: url(../images/3.png) no-repeat center top;
+    -webkit-background-size: .36rem;
+    background-size: .36rem;
+}
+.zgm2 .lc .item4{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: .15rem;
+    margin-left: .65rem;
+}
+.zgm2 .lc .item4 span{
+    width: .36rem;
+     height: .43rem;
+    background: url(../images/4.png) no-repeat center top;
+    -webkit-background-size: .36rem;
+    background-size: .36rem;
+}
+.zgm2 .lc .item5{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 2rem;
+}
+.zgm2 .lc .item5 span{
+    width: .37rem;
+     height: .43rem;
+    background: url(../images/5.png) no-repeat center top;
+    -webkit-background-size: .37rem;
+    background-size: .37rem;
+}
+/*zgm3*/
+.zgm3 {
+    width: 7.5rem;
+    height: 2.83rem;
+    padding-top: .5rem;
+    background: url(../images/m3_02.jpg) no-repeat center top;
+    -webkit-background-size: 7.5rem;
+    background-size: 7.5rem;
+    box-sizing:border-box;
+}
+.zgm3 .con{
+  display: flex;
+  justify-content: center;
+}
+.zgm3 .con p{
+    font:.27rem/.39rem 'Microsoft YaHei';
+    text-align: left;
+    color: #fff;
+    margin-top: .55rem;
+}
+.zgm3 .img{
+    width: 2.42rem;
+    height: 1.83rem;
+    padding-top: .08rem;
+    margin-left: -.15rem;
+    text-align: center;
+    background: url(../images/ice3.png) no-repeat center top;
+    -webkit-background-size: 2.42rem;
+    background-size: 2.42rem;
+    box-sizing:border-box;
+}
+.zgm3  img{
+  width: 1.12rem;
+  vertical-align: top;
+}
+
+
+/*zgm4*/
+.zgm4 {
+    width: 7.5rem;
+    height: 5.47rem;
+    background: url(../images/m4_02.jpg) no-repeat center top;
+    -webkit-background-size: 7.5rem;
+    background-size: 7.5rem;
+    box-sizing:border-box;
+}
+.zgm4 h2 {
+    height: .79rem;
+    background: url(../images/tit4.png) no-repeat center top;
+    -webkit-background-size: 4.49rem;
+    background-size: 4.49rem;
+    margin-bottom: .2rem;
+}
+.zgm4 .s_w {
+    height: 3.26rem;
+    text-align: center;
+    background: url(../images/ice4.png) no-repeat center top;
+    -webkit-background-size: 6.29rem;
+    background-size: 6.29rem;
+    padding-top: .5rem;
+    box-sizing:border-box;
+}
+.zgm4 p{
+  margin-top: .4rem;
+  font:.22rem 'Microsoft YaHei';
+    text-align: center;
+    color: #fff;
+}
+.zgm4 .s_w img{
+  width: 4.48rem;
+  height: 2.52rem;
+}
+.swiper-button-next, .swiper-container-rtl .swiper-button-prev{
+  background-image: url(../images/next.png) !important;
+}
+.swiper-button-prev, .swiper-container-rtl .swiper-button-next{
+  background-image: url(../images/prev.png) !important;
+}
+.swiper-button-next, .swiper-button-prev {
+    width: .26rem !important;
+    height: .64rem !important;
+    -webkit-background-size:.26rem .64rem !important;
+    background-size: .26rem .64rem !important;
+}
